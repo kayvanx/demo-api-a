@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/api/changeOrderById', (req, res) => {
+app.post('/api/v2/changeOrderById', (req, res) => {
   const {
     'customer-id': customerId,
     email,
